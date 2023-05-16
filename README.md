@@ -5,6 +5,8 @@ NLP Prompt Converter
 This Python script is designed to convert natural language prompts into a structured request body for a specific task. It utilizes various natural language processing techniques to extract relevant information from the prompt.
 Dependencies
 
+The First requirement is to have python 3.11.xx installed and the python variable to be set in the system
+
 The script requires the following dependencies:
 
     dateutil.parser from the dateutil library
