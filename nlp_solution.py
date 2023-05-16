@@ -10,6 +10,7 @@ import json
 import re
 import nltk
 import numpy
+import keyboard
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
@@ -204,9 +205,15 @@ def main():
             request_body = promptconverter.create_request_body(
                 model_type[i], formulas, date)
             print(json.dumps(request_body, indent=2))
+            print("Enter ESC to return back")
+
+        # Add a loop to keep the program running until the user presses Esc
+        while True:
+            if keyboard.is_pressed("esc"):
+                break
     else:
         print("Please Enter a valid prompt")
-
+        main()
 
 if __name__ == "__main__":
     main()
