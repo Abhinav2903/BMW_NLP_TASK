@@ -24,7 +24,7 @@ The script requires the following dependencies:
 Make sure to install these dependencies before running the script.
 Installation
 
-    Clone the repository or download the script file or unzip form the zip folder provided.
+    Clone the repository(https://github.com/Abhinav2903/BMW_NLP_TASK.git) or download the script file or unzip form the zip folder provided.
 
     Install the required dependencies using the following command:
 
