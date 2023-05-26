@@ -14,6 +14,8 @@ import keyboard
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
+nltk.download('punkt')
+
 
 # Define the class that handles all the functions and
 class NlpPromptConverter:
